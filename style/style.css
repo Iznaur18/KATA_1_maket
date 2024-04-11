@@ -37,9 +37,15 @@ a {
   text-decoration: none;
 }
 
+.df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .wrapper {
   padding: 0 16px;
-}
+} 
 
 .header {
   padding: 15px 0;
@@ -59,12 +65,15 @@ a {
   align-items: center;
 }
 
-.burger {
-  margin-right: 16px;
+.logo {
+  max-width: 100px;
+  max-height: 50px;
+  margin: 0 16px;
 }
 
-.burger img {
+.icon {
   width: 40px;
+  height: 40px;
 }
 
 .menu {
@@ -93,7 +102,6 @@ a {
 }
 
 .line {
-  margin-left: 15px;
   height: 30px;
   width: 2px;
   background-color: #eaeaea;
@@ -132,9 +140,7 @@ a {
   margin-left: 32px;
 }
 
-.services__img {
-  width: 40px;
-  height: 40px;
+.services__item img {
   margin-left: 8px;
 }
 
